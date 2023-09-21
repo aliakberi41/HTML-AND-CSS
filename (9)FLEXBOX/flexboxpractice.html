@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<head>
+    <title>Flexbox</title>
+    <style>
+        .flexbox{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-top: 6px;
+padding-left: 12px;
+padding-right: 12px;
+        }
+       .number{
+        background-color: blue;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+       }
+       .flexbox-2{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-left: 15px;
+padding-right: 15px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+       }
+       .Home{
+       font-weight: bold;
+       }
+      .search-bar{
+width: 500px;
+border: none;
+border-radius: 15px;
+height: 20px;
+margin-top: 7px;
+margin-bottom: 8px;
+padding-left: 20px;
+      }
+      .Download{
+        border: none;
+        border-radius: 3px;
+        background-color: purple;
+        color: white;
+        border-color: white;
+        border-width: 1px;
+        border-style: solid ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+      }
+
+
+
+      .account-dp{
+            height: 32px;
+            width: 32px;
+            border-radius: 80px;
+            display: inline-block;
+           } 
+           .profile-image{
+            display: inline-block;
+            margin: 0%;
+            margin-left: 12px;
+            vertical-align: top;
+           }
+           .profile-details{
+            margin-left: 10px;
+            display: inline-block;
+            vertical-align: top;
+           }
+           .username,
+           .user-id,
+           .Popular{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 7px;
+           }
+           .username{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-weight: bold;
+           }
+           .user-id{
+            margin-top: 3px;
+            margin-bottom: 0px;
+            color: gray;
+           }
+           .Popular{
+            margin-top: 3px;
+            color: gray;
+            margin-bottom: 10px;
+           }
+           .follow-button{
+            display: inline-block;
+            margin-top: 0px;
+            vertical-align: middle;
+           }
+           .follow{
+            margin-left: 500px;
+            margin-top: 10px;
+            height: 22px;
+            width: 60px;
+            display: inline-block;
+            color: white;
+            background-color: blue;
+            border: none;
+            border-radius: 4px;
+            vertical-align: middle;
+           }
+           .div-2,
+           .div-3{
+            margin-top: 7px;
+           }
+    </style>
+</head>
+    <body style="height: 1000px;">
+        <div style=" display: flex;
+        flex-direction: row;">
+            <div style="background-color: lightblue;
+            width: 200px;"
+            >200px </div>
+            <div style="background-color: lightpink;
+            width: 75px;"
+            >75px </div>  
+        </div>
+
+        <div style=" display: flex;
+        flex-direction: row;
+        margin-top: 40px;">
+            <div style="background-color: lightblue;
+            width: 50px;"
+            >item1 </div>
+            <div style="background-color: lightpink;
+           flex: 3;"
+            >item 2 </div>  
+            <div style="background-color: lightblue;
+            width: 100px;"
+            >item3 </div>
+        </div>
+            <div style=" display: flex;
+            flex-direction: row;
+            margin-top: 40px;
+            width: 500px;
+            border-width: 1px;
+        height: 17px;
+        border-style: solid;
+        border-color: gray;
+            justify-content: space-between;"
+            a >
+                <div style="background-color: lightpink;
+               "
+                >item1 </div>
+                <div style="background-color: lightpink;
+              "
+                >item 2 </div>  
+                <div style="background-color: lightpink;
+               "
+                >item3 </div>
+                <div style="background-color: lightpink;
+               "
+                >item4 </div>
+        </div>
+
+        <div style=" display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        border-width: 1px;
+        height: 50px;
+        border-style: solid;
+        border-color: gray;
+       align-items: center;
+       margin-bottom: 40px;
+        justify-content: space-between;" >
+            <div style="background-color: lightpink;
+           "
+            >item1 </div>
+            <div style="background-color: lightpink;
+          "
+            >item 2 </div> 
+        </div>
+
+        <div style=" 
+        border-width: 1px;
+        height: 90px;
+        border-style: solid;
+        border-radius: 6px;
+        border-color: gray;" >
+        <div class="flexbox">
+        <div class="Home">Home</div>
+        <div class="number">14</div></div>
+        <div class="flexbox">
+            <div class="Notifications">Notifications</div>
+            <div class="number">3</div></div>
+            <div class="flexbox">
+                <div class="Messages">Messages</div>
+                <div class="number">5</div>
+    </div>
+        </div>
+
+        <div style="height: 35px;
+        border-width: 1px;
+        border-radius: 6px;
+        border-color: gray;
+        background-color: purple;
+        margin-top: 40px;">
+        <div class="flexbox-2">
+<div class="Home">Home</div>
+    <input class="search-bar" type="text" placeholder="Search">
+    <button class="Download">Download</button>
+        </div>
+        </div>
+
+<div style="display: flexbox;
+flex-direction: column;
+margin-top: 20px;">
+        <div style="flex;">
+            <div class="profile-image">
+                <img class="account-dp" src="WhatsApp Image 2023-03-11 at 6.02.41 PM (1).jpeg">
+               </div>
+                <div class="profile-details">
+                    <div class="div-username">
+                        <p class="username">oliver</p>
+                    </div>
+                    <div class="user-id-div">
+                        <p class="user-id">the cat</p>
+                    </div>
+                    <div class="div-Popular">
+                        <p class="Popular">Popular</p>
+                    </div>
+                </div> 
+                <div class="follow-button">
+                    <button class="follow">Follow</button>
+                </div>   
+        </div>
+<div class="div-2">
+                <div class="profile-image">
+                    <img class="account-dp" src="WhatsApp Image 2023-03-11 at 6.02.41 PM (2).jpeg">
+                </div>
+                    <div class="profile-details">
+                        <div class="div-username">
+                            <p class="username">Mimi</p>
+                        </div>
+                        <div class="user-id-div">
+                            <p class="user-id">blow cat</p>
+                        </div>
+                        <div class="div-Popular">
+                            <p class="Popular">Popular</p>
+                        </div>
+                    </div> 
+                    <div class="follow-button">
+                        <button class="follow">Follow</button>
+                    </div>  
+                </div>
+                        <div class="div-3">
+                            <div class="profile-image">
+                                <img class="account-dp" src="WhatsApp Image 2023-03-11 at 6.02.41 PM.jpeg">
+                            </div>
+                                <div class="profile-details">
+                                    <div class="div-username">
+                                        <p class="username">Rex</p>
+                                    </div>
+                                    <div class="user-id-div">
+                                        <p class="user-id">lazy cat</p>
+                                    </div>
+                                    <div class="div-Popular">
+                                        <p class="Popular">Popular</p>
+                                    </div>
+                                </div> 
+                                <div class="follow-button">
+                                    <button class="follow">Follow</button>
+                                </div>   
+                        </div> 
+                </div> 
+            </div> 
+    </body>
