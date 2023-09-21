@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Practice Questions</title>
+    </head>
+    <style>
+        .fb-pic{
+            height: 150px;
+            width: 160px;
+           }
+           .username-fb,
+           .mutual-frndz,
+           .add-frnd-button{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0%;
+            margin-bottom: 0px;
+           }
+           .username-fb{
+            font-weight: bold;
+            margin-top: 7px;
+            margin-bottom: 7px;
+            margin-left: 7px;
+           }
+           .mutual-dp{
+            height: 22px;
+            width: 22px;
+            border-radius: 40px;
+            object-fit: cover;
+            vertical-align: middle;
+            margin-left: 4px;
+           }
+          
+           .id-border{
+           width: 160px;
+           height: 255px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    box-shadow: black;
+    margin-top: 40px;
+    margin-right: 6px;
+           }
+           .grid{
+            display: grid;
+    grid-template-columns: 200px 200px 200px;
+           }
+           .mutual-frndz{
+            margin-left: 2px;
+            vertical-align: middle;
+            margin-top: 0px;
+            font-size: 14px;
+            color: gray;
+           }
+           .mutual-friends{
+            display: grid;
+            grid-template-columns: 35px 1fr;
+            align-items: center;
+           }
+           .add-frnd-button{
+            color: white;
+            background-color: rgb(75, 75, 187);
+            border: none;
+            border-style: solid;
+            height: 30px;
+            border-radius: 7px;
+            margin-top: 8px;
+            margin-left: 4px;
+           }
+    </style>
+    <body style="height: 1000px;">
+        <div style="display: grid;
+        grid-template-columns: 200px 75px;
+       margin-bottom: 20px;">
+          <div style="
+            background-color: lightblue;">200px</div>  
+        <div style="
+            background-color: lightpink;">75px</div>  
+        </div>
+
+        <div style="display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-bottom: 20px;">
+          <div style="
+            background-color: lightblue;">col1</div>  
+        <div style="
+            background-color: lightpink;">col2</div>  
+        <div style="
+            background-color: lightblue;">col3</div> </div> 
+    </body>
+
+    <div style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 20px;">
+      <div style="
+        background-color: lightpink;">col1</div>  
+    <div style="
+        background-color: lightpink;">col2</div>  
+    <div style="
+        background-color: lightpink;">col3</div> 
+        <div style="
+        background-color: lightpink;">col3</div> 
+      <div style="
+        background-color: lightpink;">col1</div>  
+    <div style="
+        background-color: lightpink;">col2</div>  
+    <div style="
+        background-color: lightpink;">col3</div> 
+        <div style="
+        background-color: lightpink;">col3</div> 
+    </div> 
+
+    <section class="grid">
+    <div class="id-border">
+        <div class="profile-dp">
+           <img class="fb-pic" src="WhatsApp Image 2023-03-11 at 6.02.41 PM (1).jpeg"> 
+            <p class="username-fb">Olivier</p>
+        <div class="mutual-friends">
+            <img class="mutual-dp" src="hq720.webp">
+            <p class="mutual-frndz">2 mutual friends</p>
+        </div>
+        <button class="add-frnd-button">Add Friend</button>
+        </div>
+    </div>
+
+        <div class="id-border">
+            <div class="profile-dp">
+               <img class="fb-pic" src="WhatsApp Image 2023-03-11 at 6.02.41 PM (2).jpeg"> 
+                <p class="username-fb">Mimi</p>
+            <div class="mutual-friends">
+                <img class="mutual-dp" src="hq720.webp">
+                <p class="mutual-frndz">2 mutual friends</p>
+            </div>
+            <button class="add-frnd-button">Add Friend</button>
+            </div>
+        </div>
+   
+       
+            <div class="id-border">
+                <div class="profile-dp">
+                   <img class="fb-pic" src="WhatsApp Image 2023-03-11 at 6.02.41 PM.jpeg"> 
+                    <p class="username-fb">Rex</p>
+                <div class="mutual-friends">
+                    <img class="mutual-dp" src="hq720.webp">
+                    <p class="mutual-frndz">2 mutual friends</p>
+                </div>
+                <button class="add-frnd-button">Add Friend</button>
+                </div>
+            </div>
+            </section>
+</html>
