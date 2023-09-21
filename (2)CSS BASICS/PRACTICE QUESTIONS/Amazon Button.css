@@ -1,0 +1,14 @@
+.Add-To-Cart-button{
+    color: black;
+    background-color: rgb(255, 216, 20);
+    border:none;
+    border-radius:300px;
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    cursor: pointer;
+        }
+        .Add-To-Cart-button:hover {
+     background-color: rgb(252, 222, 72);
+     color: black;
+        }
