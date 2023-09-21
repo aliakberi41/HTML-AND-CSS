@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Nested Layouts Techniques </title>
+        <style>
+           .account-dp{
+            height: 32px;
+            width: 32px;
+            border-radius: 80px;
+            display: inline-block;
+           } 
+           .profile-image{
+            display: inline-block;
+            margin: 0%;
+            margin-left: 12px;
+            vertical-align: top;
+           }
+           .profile-details{
+            margin-left: 10px;
+            display: inline-block;
+            vertical-align: top;
+           }
+           .username,
+           .user-id,
+           .Popular{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 7px;
+           }
+           .username{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-weight: bold;
+           }
+           .user-id{
+            margin-top: 3px;
+            margin-bottom: 0px;
+            color: gray;
+           }
+           .Popular{
+            margin-top: 3px;
+            color: gray;
+            margin-bottom: 10px;
+           }
+           .follow-button{
+            display: inline-block;
+            margin-top: 0px;
+            vertical-align: middle;
+           }
+           .follow{
+            margin-left: 500px;
+            margin-top: 10px;
+            height: 22px;
+            width: 60px;
+            display: inline-block;
+            color: white;
+            background-color: blue;
+            border: none;
+            border-radius: 4px;
+            vertical-align: middle;
+           }
+           .div-2,
+           .div-3{
+            margin-top: 7px;
+           }
+           .video-1{
+            margin-top: 20px;
+            display: inline-block;
+           }
+           .thumbnail{
+            display: inline-block;
+           }
+           .video-3{
+            display: block;
+           }
+           .video-thumbnail{
+            height: 100px;
+            width: 170px;
+           }
+           .video-title{
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-block;
+            margin-left: 20px;
+            margin-top: 0px;
+            vertical-align: top;
+           }
+           .text1,
+           .text-2,
+           .text-3{
+            margin-top: 0px;
+           }
+           .text-1{
+            font-weight: bold;
+            margin-top: 0%;
+           }
+           .text-2,
+           .text-3{
+            color: gray;
+            margin-bottom: 0%;
+           }
+           .text-3{
+            margin-top: 10px;
+           }
+           .fb-pic{
+            height: 150px;
+            width: 160px;
+           }
+           .username-fb,
+           .mutual-frndz,
+           .add-frnd-button{
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-block;
+           }
+           .username-fb{
+            font-weight: bold;
+            margin-top: 7px;
+            margin-bottom: 0px;
+           }
+           .mutual-dp{
+            height: 22px;
+            width: 22px;
+            border-radius: 40px;
+            display: inline-block;
+           }
+           .profile-dp{
+            display: inline-block;
+           }
+           .id-border{
+           width: 160px;
+            height: 255px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    box-shadow: black;
+    display: inline-block;
+    margin-top: 40px;
+    vertical-align: middle;
+    margin-right: 12px;
+           }
+           .mutual-frndz{
+            margin-left: 5px;
+            vertical-align: middle;
+            margin-top: 0px;
+            font-size: 14px;
+            color: gray;
+           }
+           .mutual-friends{
+            margin-top: 6px;
+           }
+           .id-details{
+            margin-left: 10px;
+            margin-top: 0%;
+           }
+           .add-frnd-button{
+            color: white;
+            background-color: rgb(75, 75, 187);
+            border: none;
+            border-style: solid;
+            height: 30px;
+            border-radius: 7px;
+           }
+        </style>
+    </head>
+    <body style="height: 1000px;">
+        <div>
+            <div class="profile-image">
+                <img class="account-dp" src="WhatsApp Image 2023-03-11 at 6.02.41 PM (1).jpeg">
+               </div>
+                <div class="profile-details">
+                    <div class="div-username">
+                        <p class="username">oliver</p>
+                    </div>
+                    <div class="user-id-div">
+                        <p class="user-id">the cat</p>
+                    </div>
+                    <div class="div-Popular">
+                        <p class="Popular">Popular</p>
+                    </div>
+                </div> 
+                <div class="follow-button">
+                    <button class="follow">Follow</button>
+                </div>   
+        </div>
+<div class="div-2">
+                <div class="profile-image">
+                    <img class="account-dp" src="WhatsApp Image 2023-03-11 at 6.02.41 PM (2).jpeg">
+                </div>
+                    <div class="profile-details">
+                        <div class="div-username">
+                            <p class="username">Mimi</p>
+                        </div>
+                        <div class="user-id-div">
+                            <p class="user-id">blow cat</p>
+                        </div>
+                        <div class="div-Popular">
+                            <p class="Popular">Popular</p>
+                        </div>
+                    </div> 
+                    <div class="follow-button">
+                        <button class="follow">Follow</button>
+                    </div>  
+                </div>
+                        <div class="div-3">
+                            <div class="profile-image">
+                                <img class="account-dp" src="WhatsApp Image 2023-03-11 at 6.02.41 PM.jpeg">
+                            </div>
+                                <div class="profile-details">
+                                    <div class="div-username">
+                                        <p class="username">Rex</p>
+                                    </div>
+                                    <div class="user-id-div">
+                                        <p class="user-id">lazy cat</p>
+                                    </div>
+                                    <div class="div-Popular">
+                                        <p class="Popular">Popular</p>
+                                    </div>
+                                </div> 
+                                <div class="follow-button">
+                                    <button class="follow">Follow</button>
+                                </div>   
+                        </div> 
+                </div>  
+                <div class="video-1">
+<div class="thumbnail">
+<img class="video-thumbnail" src="hq720.webp">
+</div>
+<div class="video-title">
+<div class="video-text">
+    <p class="text-1" >
+        Our Planet | Frozen Worlds | FULL EPISODE | Netflix
+    </p>
+    </div>
+<div class="video-channel">
+<p class="text-2">Netflix</p>
+</div>
+<div class="video-stats">
+    <p class="text-3">27M views .
+        3 years ago</p>
+    </div>
+</div>
+</div>
+<div class="video-1">  
+    <div class="thumbnail">
+        <img class="video-thumbnail" src="hq720 (1).webp">
+        </div>
+        <div class="video-title">
+        <div class="video-text">
+            <p class="text-1" >
+                Deep Water Death Match (Full Episode) | Predator Fail
+            </p>
+            </div>
+        <div class="video-channel">
+        <p class="text-2">Gaming zone</p>
+        </div>
+        <div class="video-stats">
+            <p class="text-3">7M views .
+                2 years ago</p>
+            </div>
+        </div>
+        </div> 
+        <div class="video-3">
+        <div class="thumbnail">
+            <img class="video-thumbnail" src="3.webp">
+            </div>
+            <div class="video-title">
+            <div class="video-text">
+                <p class="text-1" >
+                    King Kong | V. rex Fight in 4K HDR
+                </p>
+                </div>
+            <div class="video-channel">
+            <p class="text-2">National Geographic</p>
+            </div>
+            <div class="video-stats">
+                <p class="text-3">67M views .
+                    9 years ago</p>
+                </div>
+            </div>
+            </div>  
+           
+
+            <div class="id-border">
+<div class="profile-dp">
+   <img class="fb-pic" src="WhatsApp Image 2023-03-11 at 6.02.41 PM (1).jpeg"> 
+</div>
+<div class="id-details">
+<div class="id-name">
+    <p class="username-fb">Olivier</p>
+</div>
+<div class="mutual-friends">
+    <img class="mutual-dp" src="hq720.webp">
+    <p class="mutual-frndz">2 mutual friends</p>
+</div>
+<div class="add-friend">
+<button class="add-frnd-button">Add Friend</button>
+</div>
+</div>
+            </div>  
+                <div class="id-border">
+                    <div class="profile-dp">
+                    <img class="fb-pic" src="WhatsApp Image 2023-03-11 at 6.02.41 PM.jpeg"> 
+                    </div>
+                    <div class="id-details">
+                    <div class="id-name">
+                        <p class="username-fb">Mimi</p>
+                    </div>
+                    <div class="mutual-friends">
+                        <img class="mutual-dp" src="hq720.webp">
+                        <p class="mutual-frndz">2 mutual friends</p>
+                    </div>
+                    <div class="add-friend">
+                    <button class="add-frnd-button">Add Friend</button>
+                    </div>
+                    </div>
+                             </div> 
+                             <div class="id-border">
+                                <div class="profile-dp">
+                                <img class="fb-pic" src="WhatsApp Image 2023-03-11 at 6.02.41 PM (2).jpeg"> 
+                                </div>
+                                <div class="id-details">
+                                <div class="id-name">
+                                    <p class="username-fb">Rex</p>
+                                </div>
+                                <div class="mutual-friends">
+                                    <img class="mutual-dp" src="hq720.webp">
+                                    <p class="mutual-frndz">2 mutual friends</p>
+                                </div>
+                                <div class="add-friend">
+                                <button class="add-frnd-button">Add Friend</button>
+                                </div>
+                                </div>
+                                         </div>                
+    </body>
+</html>

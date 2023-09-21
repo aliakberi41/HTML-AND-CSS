@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Div element</title> 
+    </head>
+    <style>
+        .red-square{
+background-color: red;
+height: 100px;
+width: 100px;
+margin-bottom: 5px;
+display: inline-block;
+margin-right: 10px;
+        }
+        .green-circle{
+            background-color: green;
+            border-radius: 60px;
+            height: 100px;
+width: 100px;
+display: inline-block;
+        }
+        .border{
+            width: 300px;
+            border-width: 1px;
+            border-color: rgb(150, 150, 150);
+            border-style: solid;
+            padding-left: 15px;
+            padding-bottom: 20px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .background{
+            width: 400px;
+            height: 80px;
+            border-width: 1px;
+            border-color: rgb(150, 150, 150);
+            border-style: solid;
+            background-color: black;
+            padding-left: 15px;
+            padding-bottom: 20px;
+            display: block;
+            margin-bottom: 40px;
+        }
+        .Youtube{
+            font-family: arial;
+            font-weight: bold;
+            color: white;
+        }
+        .text{
+            font-family: arial;
+            font-weight: bold;
+            color: white;
+            width: 380px;
+        }
+        .tweet-pic{
+    border-radius: 50%;
+    height: 40px;
+    width: 50px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    
+}
+.text{
+    font-family: arial;
+    color: gray;
+    vertical-align: middle;
+}
+.Tweet{
+    color: white;
+    background-color: rgb(116, 116, 241);
+    border: none;
+    border-radius: 11px;
+    margin-left: 400px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.tweet-border{
+    border-color: gray;
+    width: 665px;
+    height: 50px;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    padding-right: 12px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+.fb-id{
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+    margin-top: 35px;
+    display: block;
+    margin-right: 10px;
+}
+
+.id-name{
+    font-family: arial;
+    font-weight: bold;
+margin-bottom: 7px;
+margin-left: 7px;
+display: block;
+}
+.friends{
+    font-family: arial;
+    color: gray;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 7px;
+    display:block;
+}
+.request{
+    font-family: arial;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 7px;
+    display: block;
+}   
+.google{
+        width: 200px;
+        text-align: center;
+        margin-left: 150px;
+        margin-bottom: 0;
+    }
+    
+    .Search-Bar{
+    font-size: 16px;
+margin-left: 30px;
+width: 400px;
+border-radius: 30px;
+border: none;
+padding-top: 17px; 
+padding-bottom: 20px; 
+padding-left: 80px; 
+padding-right: 15px;
+box-shadow: 0 1px 5px rgba(0, 0, 0,0.25);
+margin-left: 60px;
+text-align: center;
+margin-bottom: 20px;
+    }
+    .google-search{
+        font-family: arial;
+        border: none;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-left: 150px;
+        text-align: center;
+    }
+    .google-button{
+        font-family: arial;
+        border: none;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        text-align: center;
+    }
+    </style>
+    <body>
+        <div class="red-square"></div>
+        <div class="green-circle"></div>
+        <div class="border">
+            <p>Satisfied with our services</p>
+            <button class="Yes">Yes</button>
+            <button class="No">No</button>
+        </div>
+        <div class="background">
+        <p class="Youtube">Install Youtube Music</p>
+        <p class="text">Add Youtube Music to your desktop for quick and easy access</p>
+    </div>
+    <div class="tweet-border">
+        <image class="tweet-pic" src="TWEET IMG.jpg"><span class="text">What's happening?</span>
+            <button class="Tweet">Tweet</button></image>
+    </div>
+    <div>
+        <image class="fb-id" src="WhatsApp Image 2023-03-11 at 6.02.41 PM (1).jpeg"></image>
+        <p class ="id-name" >Oliver</p>
+        <p class="friends">2 mutual friends</p>
+        <button class="request">Add Friend</button>
+        <image class="fb-id" src="WhatsApp Image 2023-03-11 at 6.02.41 PM (2).jpeg"></image>
+        <p class ="id-name" >Mimi</p>
+        <p class="friends">3 mutual friends</p>
+        <button class="request">Add Friend</button>
+        <image class="fb-id" src="WhatsApp Image 2023-03-11 at 6.02.41 PM.jpeg"></image>
+        <p class ="id-name" >Rex</p>
+        <p class="friends">3 mutual friends</p>
+        <button class="request">Add Friend</button>
+    </div>
+    <div>
+        <image class="google" src="Google png logo.jpeg"></image>
+        </div>
+    </div>
+        <input class="Search-Bar" type="text" placeholder="Search Google or type a URL">  
+    </div>
+    <div>
+        <button class="google-search">Google Search</button>
+        <button class="google-button">I'm feeling lucky</button>
+    </div>
+    </body>
+</html>
