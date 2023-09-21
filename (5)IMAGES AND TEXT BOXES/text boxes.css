@@ -1,0 +1,57 @@
+.ist-box{
+    font-size: 16px; 
+    border-width: 1px; 
+border-style: solid; 
+border-color: rgb(200, 200, 200); 
+padding-top: 12px; 
+padding-bottom: 12px; 
+padding-left: 15px; 
+padding-right: 15px; 
+border-radius: 8px; 
+}
+
+.Search-Bar{
+    font-size: 16px;
+margin-left: 30px;
+width: 500px;
+border-radius: 30px;
+border: none;
+padding-top: 17px; 
+padding-bottom: 20px; 
+padding-left: 10px; 
+padding-right: 15px;
+box-shadow: 0 1px 5px rgba(0, 0, 0,0.25);
+margin-top: 20px;
+margin-left: 20px;
+}
+.email{
+    font-family: arial;
+    color: grey;
+    margin-bottom: 5px;
+}
+.email-box{
+    width: 300px;
+    border-color: rgb(51, 50, 50);
+    border-radius: 3px;
+    border-style: solid;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 0;
+}
+.email-text{
+    font-family: arial;
+    color: grey;
+}
+.button-text{
+    font-family: arial;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    background-color: rgb(21, 21, 226);
+    width: 300px;
+}
